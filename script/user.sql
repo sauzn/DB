@@ -14,6 +14,7 @@ CREATE TABLE `user` (
 	`update_by` VARCHAR(50) NOT NULL DEFAULT '' COMMENT '更新人' COLLATE 'utf8_general_ci',
 	PRIMARY KEY (`id`) USING BTREE
 )
+COMMENT='用户表'
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 ;
