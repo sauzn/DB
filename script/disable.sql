@@ -1,4 +1,4 @@
-CREATE TABLE `cb-disable` (
+CREATE TABLE `disable` (
 	`id` INT NOT NULL AUTO_INCREMENT,
 	`mac_add` VARCHAR(50) NULL DEFAULT NULL COMMENT '手机地址',
 	`disable_type` VARCHAR(10) NULL DEFAULT NULL COMMENT '禁用类型',
